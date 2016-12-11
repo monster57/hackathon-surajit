@@ -1,12 +1,12 @@
 {
   "name": "server",
   "description": "",
-  "main": "app.js",
+  "main": "",
   "authors": [
-    "monster57 <surajitbarman57@yahoo.in>"
+    "surajit barman <surajitbarman57@yahoo.in>"
   ],
-  "license": "ISC",
-  "homepage": "",
+  "license": "MIT",
+  "homepage": "https://github.com/monster57/hackathon-surajit",
   "ignore": [
     "**/.*",
     "node_modules",

@@ -11,7 +11,7 @@ var models = require("./models");
 var User = models.User;
 var cors = require('cors');
 var ApiError = require('./lib/api-error');
-var routes = require('./routes/routes');
+var routes = require('./routes/index');
 var apis = require('./routes/api-route');
 var apiUtils = require('./lib/api-utils');
 

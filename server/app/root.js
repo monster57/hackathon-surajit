@@ -13,9 +13,9 @@ angular.module("tracker" , ['ui.router'])
 			templateUrl: '/components/home/home.html',
 			controller: 'homeCtrl',
 			resolve:{
-				data:["$http", function($http){
-					return $http.get("/api/home")
-				}]
+				// data:["$http", function($http){
+				// 	return $http.get("/api/home")
+				// }]
 			}
 		})
 		.state('login',{
