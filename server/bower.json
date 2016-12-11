@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "monster57 <surajitbarman57@yahoo.in>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.6"
+  }
+}
