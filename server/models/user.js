@@ -1,34 +1,34 @@
 'use strict';
 module.exports = function(sequelize, DataTypes) {
     var user = sequelize.define('user', {
-        displayName: {
+        DisplayName: {
             type: DataTypes.STRING
         },
-        reputation: {
+        Reputation: {
             type: DataTypes.INTEGER
         },
-        creationDate: {
+        CreationDate: {
             type: DataTypes.DATE
         },
-        lastAccessDate: {
+        LastAccessDate: {
             type: DataTypes.DATE
         },
-        location: {
+        Location: {
             type: DataTypes.STRING
         },
-        aboutMe: {
+        AboutMe: {
             type: DataTypes.STRING
         },
-        views: {
+        Views: {
             type: DataTypes.INTEGER
         },
-        upVotes: {
+        UpVotes: {
             type: DataTypes.INTEGER
         },
-        downVotes: {
+        DownVotes: {
             type: DataTypes.INTEGER
         },
-        age: {
+        Age: {
             type: DataTypes.INTEGER
         },
         AccountId: {

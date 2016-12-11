@@ -6,7 +6,7 @@ parseString(xml, function(err, result) {
 
 
 var fs = require("fs");
-fs.readFile(__dirname + "/index.xml", (err, data) => {
+fs.readFile(__dirname+"/../../dumpfile/posts.xml", (err, data) => {
     if (err) throw err;
     // console.log(data);
     parseString(data, function(err, result) {
